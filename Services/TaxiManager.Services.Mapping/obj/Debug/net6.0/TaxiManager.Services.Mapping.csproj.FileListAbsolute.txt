@@ -1,0 +1,12 @@
+C:\Users\spart\Desktop\TaxiManager\Services\TaxiManager.Services.Mapping\bin\Debug\net6.0\TaxiManager.Services.Mapping.deps.json
+C:\Users\spart\Desktop\TaxiManager\Services\TaxiManager.Services.Mapping\bin\Debug\net6.0\TaxiManager.Services.Mapping.dll
+C:\Users\spart\Desktop\TaxiManager\Services\TaxiManager.Services.Mapping\bin\Debug\net6.0\TaxiManager.Services.Mapping.pdb
+C:\Users\spart\Desktop\TaxiManager\Services\TaxiManager.Services.Mapping\obj\Debug\net6.0\TaxiManager.Services.Mapping.csproj.AssemblyReference.cache
+C:\Users\spart\Desktop\TaxiManager\Services\TaxiManager.Services.Mapping\obj\Debug\net6.0\TaxiManager.Services.Mapping.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spart\Desktop\TaxiManager\Services\TaxiManager.Services.Mapping\obj\Debug\net6.0\TaxiManager.Services.Mapping.AssemblyInfoInputs.cache
+C:\Users\spart\Desktop\TaxiManager\Services\TaxiManager.Services.Mapping\obj\Debug\net6.0\TaxiManager.Services.Mapping.AssemblyInfo.cs
+C:\Users\spart\Desktop\TaxiManager\Services\TaxiManager.Services.Mapping\obj\Debug\net6.0\TaxiManager.Services.Mapping.csproj.CoreCompileInputs.cache
+C:\Users\spart\Desktop\TaxiManager\Services\TaxiManager.Services.Mapping\obj\Debug\net6.0\TaxiManager.Services.Mapping.dll
+C:\Users\spart\Desktop\TaxiManager\Services\TaxiManager.Services.Mapping\obj\Debug\net6.0\refint\TaxiManager.Services.Mapping.dll
+C:\Users\spart\Desktop\TaxiManager\Services\TaxiManager.Services.Mapping\obj\Debug\net6.0\TaxiManager.Services.Mapping.pdb
+C:\Users\spart\Desktop\TaxiManager\Services\TaxiManager.Services.Mapping\obj\Debug\net6.0\ref\TaxiManager.Services.Mapping.dll

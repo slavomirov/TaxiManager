@@ -1,0 +1,12 @@
+C:\Users\spart\Desktop\TaxiManager\Services\TaxiManager.Services\bin\Debug\net6.0\TaxiManager.Services.deps.json
+C:\Users\spart\Desktop\TaxiManager\Services\TaxiManager.Services\bin\Debug\net6.0\TaxiManager.Services.dll
+C:\Users\spart\Desktop\TaxiManager\Services\TaxiManager.Services\bin\Debug\net6.0\TaxiManager.Services.pdb
+C:\Users\spart\Desktop\TaxiManager\Services\TaxiManager.Services\obj\Debug\net6.0\TaxiManager.Services.csproj.AssemblyReference.cache
+C:\Users\spart\Desktop\TaxiManager\Services\TaxiManager.Services\obj\Debug\net6.0\TaxiManager.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spart\Desktop\TaxiManager\Services\TaxiManager.Services\obj\Debug\net6.0\TaxiManager.Services.AssemblyInfoInputs.cache
+C:\Users\spart\Desktop\TaxiManager\Services\TaxiManager.Services\obj\Debug\net6.0\TaxiManager.Services.AssemblyInfo.cs
+C:\Users\spart\Desktop\TaxiManager\Services\TaxiManager.Services\obj\Debug\net6.0\TaxiManager.Services.csproj.CoreCompileInputs.cache
+C:\Users\spart\Desktop\TaxiManager\Services\TaxiManager.Services\obj\Debug\net6.0\TaxiManager.Services.dll
+C:\Users\spart\Desktop\TaxiManager\Services\TaxiManager.Services\obj\Debug\net6.0\refint\TaxiManager.Services.dll
+C:\Users\spart\Desktop\TaxiManager\Services\TaxiManager.Services\obj\Debug\net6.0\TaxiManager.Services.pdb
+C:\Users\spart\Desktop\TaxiManager\Services\TaxiManager.Services\obj\Debug\net6.0\ref\TaxiManager.Services.dll

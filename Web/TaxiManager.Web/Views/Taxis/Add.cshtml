@@ -1,0 +1,53 @@
+﻿@model TaxiManager.Web.ViewModels.Taxis.TaxiAddInputModel
+
+@{
+    this.ViewData["Title"] = "Start Taxi job";
+}
+
+<div asp-validation-summary="All" class="text-danger"></div>
+<form method="post" enctype="multipart/form-data">
+
+    <h1>Add your Car </h1>
+    <div class="col-7">
+        <div class="mx-auto text-center mb-sm-2">
+            <label asp-for="Make"></label>
+            <input asp-for="Make" class="form-control" />
+            <span asp-validation-for="Make" class="text-danger"></span>
+        </div>
+
+        <div class="mx-auto text-center mb-sm-2">
+            <label asp-for="Model"></label>
+            <input asp-for="Model" class="form-control" />
+            <span asp-validation-for="Model" class="text-danger"></span>
+        </div>
+
+        <div class="mx-auto text-center mb-sm-2">
+            <label asp-for="Color"></label>
+            <input asp-for="Color" class="form-control" />
+            <span asp-validation-for="Color" class="text-danger"></span>
+        </div>
+
+        <div class="mx-auto text-center mb-sm-2">
+            <label asp-for="Number"></label>
+            <input asp-for="Number" class="form-control" />
+            <span asp-validation-for="Number" class="text-danger"></span>
+        </div>
+
+        <div class="mx-auto text-center mb-sm-2">
+            <label asp-for="ForSmokers">Smoking in the car?</label>
+            @Html.CheckBoxFor(x => x.ForSmokers)
+            <span asp-validation-for="ForSmokers" class="text-danger"></span>
+        </div>
+
+        <div class="mx-auto text-center mb-sm-4">
+            <label asp-for="Image"></label>
+            <input asp-for="Image" class="form-control" />
+            <span asp-validation-for="Image" class="text-danger"></span>
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <button type="submit" class="btn btn-danger">SUBMIT</button>
+        </div>
+
+    </div>
+</form>

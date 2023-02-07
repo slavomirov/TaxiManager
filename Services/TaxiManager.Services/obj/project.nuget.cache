@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "tQiJ7pOHLWUyYMPBxhO5PliMFSbuaqKYt3FTgnLyT25QOno1ddqXtqHNkYv0TLCmNBkYT8ydhdjSiI98nL/CQQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\spart\\Desktop\\TaxiManager\\Services\\TaxiManager.Services\\TaxiManager.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\spart\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.435\\stylecop.analyzers.1.2.0-beta.435.nupkg.sha512",
+    "C:\\Users\\spart\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.435\\stylecop.analyzers.unstable.1.2.0.435.nupkg.sha512"
+  ],
+  "logs": []
+}

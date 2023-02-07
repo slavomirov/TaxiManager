@@ -1,0 +1,12 @@
+C:\Users\spart\Desktop\TaxiManager\Web\TaxiManager.Web.Infrastructure\bin\Debug\net6.0\TaxiManager.Web.Infrastructure.deps.json
+C:\Users\spart\Desktop\TaxiManager\Web\TaxiManager.Web.Infrastructure\bin\Debug\net6.0\TaxiManager.Web.Infrastructure.dll
+C:\Users\spart\Desktop\TaxiManager\Web\TaxiManager.Web.Infrastructure\bin\Debug\net6.0\TaxiManager.Web.Infrastructure.pdb
+C:\Users\spart\Desktop\TaxiManager\Web\TaxiManager.Web.Infrastructure\obj\Debug\net6.0\TaxiManager.Web.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\spart\Desktop\TaxiManager\Web\TaxiManager.Web.Infrastructure\obj\Debug\net6.0\TaxiManager.Web.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spart\Desktop\TaxiManager\Web\TaxiManager.Web.Infrastructure\obj\Debug\net6.0\TaxiManager.Web.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\spart\Desktop\TaxiManager\Web\TaxiManager.Web.Infrastructure\obj\Debug\net6.0\TaxiManager.Web.Infrastructure.AssemblyInfo.cs
+C:\Users\spart\Desktop\TaxiManager\Web\TaxiManager.Web.Infrastructure\obj\Debug\net6.0\TaxiManager.Web.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\spart\Desktop\TaxiManager\Web\TaxiManager.Web.Infrastructure\obj\Debug\net6.0\TaxiManager.Web.Infrastructure.dll
+C:\Users\spart\Desktop\TaxiManager\Web\TaxiManager.Web.Infrastructure\obj\Debug\net6.0\refint\TaxiManager.Web.Infrastructure.dll
+C:\Users\spart\Desktop\TaxiManager\Web\TaxiManager.Web.Infrastructure\obj\Debug\net6.0\TaxiManager.Web.Infrastructure.pdb
+C:\Users\spart\Desktop\TaxiManager\Web\TaxiManager.Web.Infrastructure\obj\Debug\net6.0\ref\TaxiManager.Web.Infrastructure.dll

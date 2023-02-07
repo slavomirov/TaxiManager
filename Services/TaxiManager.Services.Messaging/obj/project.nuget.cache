@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "GBh42Wwr1VsxkQLqnMCuk+aCMigeBKC46Hs1dRVA0GCVzWWqYvB8cxWDzwkXndJYLxu2Zlx2UhVmp+j2TzKR9w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\spart\\Desktop\\TaxiManager\\Services\\TaxiManager.Services.Messaging\\TaxiManager.Services.Messaging.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\spart\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\spart\\.nuget\\packages\\sendgrid\\9.28.0\\sendgrid.9.28.0.nupkg.sha512",
+    "C:\\Users\\spart\\.nuget\\packages\\starkbank-ecdsa\\1.3.3\\starkbank-ecdsa.1.3.3.nupkg.sha512",
+    "C:\\Users\\spart\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.435\\stylecop.analyzers.1.2.0-beta.435.nupkg.sha512",
+    "C:\\Users\\spart\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.435\\stylecop.analyzers.unstable.1.2.0.435.nupkg.sha512"
+  ],
+  "logs": []
+}

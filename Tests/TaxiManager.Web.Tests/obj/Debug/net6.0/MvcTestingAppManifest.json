@@ -1,0 +1,13 @@
+{
+  "TaxiManager.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\spart\\Desktop\\TaxiManager\\TaxiManager.Common",
+  "TaxiManager.Data.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\spart\\Desktop\\TaxiManager\\Data\\TaxiManager.Data.Common",
+  "TaxiManager.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\spart\\Desktop\\TaxiManager\\Data\\TaxiManager.Data",
+  "TaxiManager.Data.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\spart\\Desktop\\TaxiManager\\Data\\TaxiManager.Data.Models",
+  "TaxiManager.Services.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\spart\\Desktop\\TaxiManager\\Services\\TaxiManager.Services.Data",
+  "TaxiManager.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\spart\\Desktop\\TaxiManager\\Services\\TaxiManager.Services",
+  "TaxiManager.Services.Mapping, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\spart\\Desktop\\TaxiManager\\Services\\TaxiManager.Services.Mapping",
+  "TaxiManager.Services.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\spart\\Desktop\\TaxiManager\\Services\\TaxiManager.Services.Messaging",
+  "TaxiManager.Web": "C:\\Users\\spart\\Desktop\\TaxiManager\\Web\\TaxiManager.Web",
+  "TaxiManager.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\spart\\Desktop\\TaxiManager\\Web\\TaxiManager.Web.Infrastructure",
+  "TaxiManager.Web.ViewModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\spart\\Desktop\\TaxiManager\\Web\\TaxiManager.Web.ViewModels"
+}

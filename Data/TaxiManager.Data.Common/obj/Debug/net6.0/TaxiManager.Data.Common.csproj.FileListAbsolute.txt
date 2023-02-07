@@ -1,0 +1,12 @@
+C:\Users\spart\Desktop\TaxiManager\Data\TaxiManager.Data.Common\bin\Debug\net6.0\TaxiManager.Data.Common.deps.json
+C:\Users\spart\Desktop\TaxiManager\Data\TaxiManager.Data.Common\bin\Debug\net6.0\TaxiManager.Data.Common.dll
+C:\Users\spart\Desktop\TaxiManager\Data\TaxiManager.Data.Common\bin\Debug\net6.0\TaxiManager.Data.Common.pdb
+C:\Users\spart\Desktop\TaxiManager\Data\TaxiManager.Data.Common\obj\Debug\net6.0\TaxiManager.Data.Common.csproj.AssemblyReference.cache
+C:\Users\spart\Desktop\TaxiManager\Data\TaxiManager.Data.Common\obj\Debug\net6.0\TaxiManager.Data.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spart\Desktop\TaxiManager\Data\TaxiManager.Data.Common\obj\Debug\net6.0\TaxiManager.Data.Common.AssemblyInfoInputs.cache
+C:\Users\spart\Desktop\TaxiManager\Data\TaxiManager.Data.Common\obj\Debug\net6.0\TaxiManager.Data.Common.AssemblyInfo.cs
+C:\Users\spart\Desktop\TaxiManager\Data\TaxiManager.Data.Common\obj\Debug\net6.0\TaxiManager.Data.Common.csproj.CoreCompileInputs.cache
+C:\Users\spart\Desktop\TaxiManager\Data\TaxiManager.Data.Common\obj\Debug\net6.0\TaxiManager.Data.Common.dll
+C:\Users\spart\Desktop\TaxiManager\Data\TaxiManager.Data.Common\obj\Debug\net6.0\refint\TaxiManager.Data.Common.dll
+C:\Users\spart\Desktop\TaxiManager\Data\TaxiManager.Data.Common\obj\Debug\net6.0\TaxiManager.Data.Common.pdb
+C:\Users\spart\Desktop\TaxiManager\Data\TaxiManager.Data.Common\obj\Debug\net6.0\ref\TaxiManager.Data.Common.dll
