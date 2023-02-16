@@ -55,7 +55,7 @@
             // Needed for Identity models configuration
             base.OnModelCreating(builder);
 
-            builder.Entity<ApplicationUser>().HasOne(x => x.Car).WithOne(x => x.Owner).HasForeignKey<Car>(x => x.OwnerId);
+            builder.Entity<Car>().HasOne(x => x.Owner).WithOne(x => x.Car).HasForeignKey<Car>(x => x.OwnerId);
             builder.Entity<Car>().HasOne(x => x.Image).WithOne(x => x.Car).HasForeignKey<Image>(x => x.CarId);
             this.ConfigureUserIdentityRelations(builder);
 

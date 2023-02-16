@@ -3,6 +3,7 @@
     using System;
     using System.IO;
     using System.Linq;
+    using System.Security.Claims;
     using System.Threading.Tasks;
 
     using Microsoft.AspNetCore.Identity;
@@ -15,12 +16,14 @@
     {
         private readonly UserManager<ApplicationUser> userManager;
         private readonly ApplicationDbContext dbContext;
+        private readonly SignInManager<ApplicationUser> signInManager;
         private readonly string[] allowedExtensions = new[] { "jpg", "png", "gif", "jpeg" };
 
-        public TaxisService(ApplicationDbContext dbContext, UserManager<ApplicationUser> userManager)
+        public TaxisService(ApplicationDbContext dbContext, UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager)
         {
             this.dbContext = dbContext;
             this.userManager = userManager;
+            this.signInManager = signInManager;
         }
 
         public async Task AddAsync(TaxiAddInputModel input, string imagePath)
@@ -36,9 +39,9 @@
                 CreatedOn = DateTime.Now,
             };
 
-            var user = this.dbContext.Users.Where(x => x.Id == input.UserId).FirstOrDefault();
-            car.Owner = user;
-            user.Car = car;
+            var user = await this.userManager.FindByIdAsync(input.UserId);
+            car.OwnerId = user.Id;
+            user.CarId = car.Id;
 
             Directory.CreateDirectory($"{imagePath}/cars/");
 
@@ -69,7 +72,10 @@
             await image.CopyToAsync(fileStream);
 
             await this.userManager.AddToRoleAsync(user, "Taxi");
+
+            // await this.userManager.UpdateAsync(user); // check if needed
             await this.dbContext.AddAsync<Car>(car);
+            await this.signInManager.RefreshSignInAsync(user);
             await this.dbContext.SaveChangesAsync();
         }
     }

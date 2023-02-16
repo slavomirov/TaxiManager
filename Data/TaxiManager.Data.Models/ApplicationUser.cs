@@ -32,6 +32,8 @@ namespace TaxiManager.Data.Models
 
         public Car Car { get; set; }
 
+        public string CarId { get; set; }
+
         // Audit info
         public DateTime CreatedOn { get; set; }
 

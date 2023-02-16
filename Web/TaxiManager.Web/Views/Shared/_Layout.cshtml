@@ -29,13 +29,13 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Settings" asp-action="Index">Settings</a>
                         </li>
-                        @if (this.User.IsInRole("Taxi"))
+                        @if (this.User.Identity.IsAuthenticated && this.User.IsInRole("Taxi"))
                         {
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                             </li>
                         }
-                        @if (!this.User.IsInRole("Taxi"))
+                        @if (this.User.Identity.IsAuthenticated && !this.User.IsInRole("Taxi"))
                         {
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-controller="Orders" asp-action="New">New Order</a>

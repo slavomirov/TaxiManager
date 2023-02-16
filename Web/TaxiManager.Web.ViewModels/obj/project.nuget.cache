@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "twokfYU1ylX3NPe/w/3rYAWVdvr6uy8S0a3I7CpPS6yhmr4o17CFKfVIgLrhdg3R/hD4McgvFdnCQ+DvwmPZzA==",
+  "dgSpecHash": "3m9ytf08VSIpS0IXnjADGZHwxHSGdT8zoYmT3h97vtCHfHI8WJv+iUQt4qZRpj4bHPcA+WythKL1Z7AhJbrUvA==",
   "success": true,
   "projectFilePath": "C:\\Users\\spart\\Desktop\\TaxiManager\\Web\\TaxiManager.Web.ViewModels\\TaxiManager.Web.ViewModels.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\spart\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\spart\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\spart\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.5\\microsoft.aspnetcore.cryptography.internal.6.0.5.nupkg.sha512",
     "C:\\Users\\spart\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.5\\microsoft.aspnetcore.cryptography.keyderivation.6.0.5.nupkg.sha512",
     "C:\\Users\\spart\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",

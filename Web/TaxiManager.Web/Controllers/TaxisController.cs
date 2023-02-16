@@ -23,6 +23,11 @@
         [Authorize]
         public IActionResult Add()
         {
+            if (this.User.IsInRole("Taxi"))
+            {
+                return this.Redirect("/");
+            }
+
             return this.View();
         }
 
@@ -30,6 +35,11 @@
         [Authorize]
         public async Task<IActionResult> AddAsync(TaxiAddInputModel input)
         {
+            if (this.User.IsInRole("Taxi"))
+            {
+                return this.Redirect("/");
+            }
+
             if (!this.ModelState.IsValid)
             {
                 return this.View(input);
@@ -44,7 +54,8 @@
 
             await this.taxisService.AddAsync(input, $"{this.environment.WebRootPath}/images");
 
-            this.TempData["Message"] = "You are Taxi now!";
+
+            this.TempData["Message"] = "You are Taxi now!"; // not finished
             return this.Redirect("/");
         }
     }

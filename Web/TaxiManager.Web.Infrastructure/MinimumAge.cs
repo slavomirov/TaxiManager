@@ -17,7 +17,7 @@
             DateTime date;
             if (DateTime.TryParse(value.ToString(), out date))
             {
-                return date.AddYears(this.minimumAge) > DateTime.Now;
+                return date.AddYears(this.minimumAge) <= DateTime.Now;
             }
 
             return false;

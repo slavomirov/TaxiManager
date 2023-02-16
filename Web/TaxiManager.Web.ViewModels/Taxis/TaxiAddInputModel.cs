@@ -23,6 +23,7 @@
         [MaxLength(6)]
         public string Number { get; set; }
 
+        [Required]
         public IFormFile Image { get; set; }
 
         public string UserId { get; set; }

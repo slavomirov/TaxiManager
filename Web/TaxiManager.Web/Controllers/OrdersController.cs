@@ -12,6 +12,11 @@
 
         public IActionResult New()
         {
+            if (this.User.IsInRole("Taxi"))
+            {
+                return this.Redirect("/");
+            }
+
             return this.View();
         }
 

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TaxiManager.Web.Tests.props" />
+</Project>

@@ -33,6 +33,11 @@
                 <span asp-validation-for="Input.CityLiving" class="text-danger"></span>
             </div>
             <div class="form-floating mb-2">
+                <input asp-for="Input.PhoneNumber" class="form-control" aria-required="true" />
+                <label asp-for="Input.PhoneNumber"></label>
+                <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
+            </div>
+            <div class="form-floating mb-2">
                 <input asp-for="Input.DateOfBirth" class="form-control" aria-required="true" />
                 <label asp-for="Input.DateOfBirth"></label>
                 <span asp-validation-for="Input.DateOfBirth" class="text-danger"></span>
@@ -55,7 +60,7 @@
             <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
         </form>
     </div>
-    <div class="col-md-6 col-md-offset-2">
+    @*<div class="col-md-6 col-md-offset-2">
         <section>
             <h3>Use another service to register.</h3>
             <hr />
@@ -84,7 +89,7 @@
                 }
             }
         </section>
-    </div>
+    </div>*@
 </div>
 
 @section Scripts {

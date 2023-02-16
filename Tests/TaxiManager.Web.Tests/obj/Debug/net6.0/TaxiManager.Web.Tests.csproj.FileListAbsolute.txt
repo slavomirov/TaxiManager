@@ -658,7 +658,6 @@ C:\Users\spart\Desktop\TaxiManager\Tests\TaxiManager.Web.Tests\obj\Debug\net6.0\
 C:\Users\spart\Desktop\TaxiManager\Tests\TaxiManager.Web.Tests\obj\Debug\net6.0\TaxiManager.Web.Tests.AssemblyInfoInputs.cache
 C:\Users\spart\Desktop\TaxiManager\Tests\TaxiManager.Web.Tests\obj\Debug\net6.0\TaxiManager.Web.Tests.AssemblyInfo.cs
 C:\Users\spart\Desktop\TaxiManager\Tests\TaxiManager.Web.Tests\obj\Debug\net6.0\TaxiManager.Web.Tests.csproj.CoreCompileInputs.cache
-C:\Users\spart\Desktop\TaxiManager\Tests\TaxiManager.Web.Tests\obj\Debug\net6.0\TaxiManager.Web.Tests.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\spart\Desktop\TaxiManager\Tests\TaxiManager.Web.Tests\obj\Debug\net6.0\TaxiManager.Web.Tests.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\spart\Desktop\TaxiManager\Tests\TaxiManager.Web.Tests\obj\Debug\net6.0\staticwebassets\msbuild.TaxiManager.Web.Tests.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\spart\Desktop\TaxiManager\Tests\TaxiManager.Web.Tests\obj\Debug\net6.0\staticwebassets\msbuild.build.TaxiManager.Web.Tests.props
@@ -684,3 +683,4 @@ C:\Users\spart\Desktop\TaxiManager\Tests\TaxiManager.Web.Tests\bin\Debug\net6.0\
 C:\Users\spart\Desktop\TaxiManager\Tests\TaxiManager.Web.Tests\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\spart\Desktop\TaxiManager\Tests\TaxiManager.Web.Tests\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\spart\Desktop\TaxiManager\Tests\TaxiManager.Web.Tests\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\spart\Desktop\TaxiManager\Tests\TaxiManager.Web.Tests\obj\Debug\net6.0\TaxiManager.Web.Tests.MvcApplicationPartsAssemblyInfo.cs

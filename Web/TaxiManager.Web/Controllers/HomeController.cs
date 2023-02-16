@@ -1,40 +1,27 @@
 ﻿namespace TaxiManager.Web.Controllers
 {
-    using System.Diagnostics;
-
-    using TaxiManager.Web.ViewModels;
-
-    using Microsoft.AspNetCore.Mvc;
-    using Microsoft.AspNetCore.Authorization;
-    using TaxiManager.Data;
-    using Microsoft.AspNetCore.Identity;
-    using TaxiManager.Data.Models;
-    using System.Security.Claims;
-    using System.Linq;
-    using System.Threading.Tasks;
     using System;
+    using System.Diagnostics;
+    using System.Linq;
+    using System.Security.Claims;
+    using System.Threading.Tasks;
+
+    using Microsoft.AspNetCore.Authorization;
+    using Microsoft.AspNetCore.Identity;
+    using Microsoft.AspNetCore.Mvc;
+    using TaxiManager.Data;
+    using TaxiManager.Data.Models;
+    using TaxiManager.Web.ViewModels;
 
     public class HomeController : BaseController
     {
-        private readonly ApplicationDbContext dbContext;
-        private readonly UserManager<ApplicationUser> userManager;
-
-        public HomeController(UserManager<ApplicationUser> userManager, ApplicationDbContext dbContext)
+        public HomeController()
         {
-            this.userManager = userManager;
-            this.dbContext = dbContext;
         }
 
 
-        public async Task<IActionResult> Index()
+        public  IActionResult Index()
         {
-            var userId = this.User.FindFirstValue(ClaimTypes.NameIdentifier);
-            var user = this.dbContext.Users.Where(x => x.Id == userId).FirstOrDefault();
-            var idk = this.userManager.IsInRoleAsync(user, "Taxi");
-            await idk;
-            var isInTaxiRole = idk.Result;
-
-            this.Response.Cookies.Append("taxiRole", isInTaxiRole.ToString().ToLower());
             return this.View();
         }
 

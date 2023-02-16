@@ -17,7 +17,7 @@ namespace TaxiManager.Data.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "6.0.13")
+                .HasAnnotation("ProductVersion", "6.0.5")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
@@ -176,6 +176,9 @@ namespace TaxiManager.Data.Migrations
 
                     b.Property<int>("AccessFailedCount")
                         .HasColumnType("int");
+
+                    b.Property<string>("CarId")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CityLiving")
                         .HasColumnType("nvarchar(max)");
